@@ -1,0 +1,21 @@
+* People Counter - Web Server
+** About
+This repository contains the web server component of our project. Credentials are omitted for security reasons. The ESP32 portion of the code can be found at https://github.com/xl9p/2DT304_ESP-IDF_Project
+
+** Dependencies
++ Node.js
++ Python
++ paho-mqtt
++ mysql-connector-python
++ flatpickr
++ anychart
++ express
++ cors
++ mysql2
++ body-parser
+
+** Structure
+*** Listener
+send-sql.py operates on our Pi to forward any message received to our database.
+*** Web Server
+The node folder contains all files for our web server, including both the backend server and the client.
